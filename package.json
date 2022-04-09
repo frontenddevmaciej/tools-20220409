@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "startdev": "webpack serve --mode development",
-    "startprd": "webpack --mode production"
+    "startprd": "webpack --mode production",
+    "prettier": "prettier --write src/*"
   },
   "devDependencies": {
     "css-loader": "^6.7.1",
