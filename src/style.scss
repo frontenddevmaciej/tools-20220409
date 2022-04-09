@@ -1,7 +1,6 @@
-@import './mixins.scss';
-@import './loader.scss';
-@import './colors.scss';
-
+@import "./mixins.scss";
+@import "./loader.scss";
+@import "./colors.scss";
 
 html,
 body,
@@ -15,7 +14,7 @@ h1 {
 .header {
   background-color: $main-color;
   color: $white;
-  
+
   .title {
     padding: 1rem;
   }
@@ -70,7 +69,6 @@ h1 {
   margin-bottom: 1rem;
 }
 
-
 @keyframes loading {
   0% {
     transform: rotate(0deg);
@@ -79,4 +77,3 @@ h1 {
     transform: rotate(360deg);
   }
 }
-
