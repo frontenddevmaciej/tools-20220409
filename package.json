@@ -2,9 +2,8 @@
   "name": "tools",
   "version": "1.0.0",
   "scripts": {
-    "startdev": "webpack --mode development",
-    "startprd": "webpack --mode production",
-    "build": ""
+    "startdev": "webpack serve --mode development",
+    "startprd": "webpack --mode production"
   },
   "devDependencies": {
     "html-webpack-plugin": "^5.5.0",
