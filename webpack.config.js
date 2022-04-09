@@ -3,7 +3,6 @@ const HTMLWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  watch: true,
   entry: ['./src/main.js', './src/style.scss'],
   output: {
     path: path.resolve(__dirname, 'dist'),
